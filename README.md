@@ -13,6 +13,6 @@ To run the server:
 Example: `python UDPPingerServer.py 6969`
 
 To run the client:
-`python UDPPingerClient.py IP_ADDR PORT_NUM'
+`python UDPPingerClient.py IP_ADDR PORT_NUM`
 
 Example: `python UDPPingerClient.py 127.0.0.1 6969`
