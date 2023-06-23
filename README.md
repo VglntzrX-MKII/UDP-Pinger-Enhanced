@@ -8,11 +8,11 @@ EXECUTE:
 ========
 
 To run the server:
-`python UDPPingerServer.py <port no>`
+`python UDPPingerServer.py PORT_NUM`
 
-Example: `python UDPPingerServer.py 12000`
+Example: `python UDPPingerServer.py 6969`
 
 To run the client:
-`python UDPPingerClient.py < server ip address> <server port no>`
+`python UDPPingerClient.py IP_ADDR PORT_NUM'
 
-Example: `python UDPPingerClient.py 127.0.0.1 12000`
+Example: `python UDPPingerClient.py 127.0.0.1 6969`
