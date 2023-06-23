@@ -4,7 +4,8 @@ from socket import *
 
 # Check command line arguments
 if len(sys.argv) != 2:
-    print ("Usage: python UDPPingerServer <server port no>")
+    print ("Launch Parameter: python UDPPingerServer PORT_NUM")
+    print ("Example: python UDPPingerServer 127.0.0.1 6969") 
     sys.exit()
 
 # Create a UDP socket
