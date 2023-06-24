@@ -4,9 +4,9 @@ from socket import *
 
 # Check command line arguments
 if len(sys.argv) != 3:
-    
-        print ("Usage: python UDPPingerClient <server ip address> <server port no>")
-        sys.exit()
+    print ("Launch Parameter : python UDPPingerClient.py IP_ADDR PORT_NUM")
+    print ("Example : python UDPPingerServer.py 127.0.0.1 6969") 
+    sys.exit()
         
     
 # Create a UDP socket
@@ -21,13 +21,13 @@ remoteAddr = (sys.argv[1], int(sys.argv[2]))
 
 # Query Keyboard Input From Client Side
 typed = input("Enter a message: ")
-print (typed + " will be capitalised and displayed alongside ping statistics when message is recieved.")
+print ("'" + typed + "'" + " will be capitalised and displayed alongside ping statistics when message is recieved.")
 
 # Ping ten times
 for i in range(10):
     
     sendTime = time.time()
-    message = (typed + ' PING#' + str(i + 1) + " @ " + str(time.strftime("%H:%M:%S")))
+    message = (typed + ' PING #' + str(i + 1) + " @ " + str(time.strftime("%H:%M:%S")))
     clientSocket.sendto(message.encode('utf-8'), remoteAddr)
 
 
