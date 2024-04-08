@@ -4,9 +4,7 @@
   </p>
 <br>
 
-> A UDP Pinger in Python where the packet drop rate is simulated to be 40% and
-the client can ping the server, the server echos the message as a response and the client
-can calculate Round Trip Time on response.
+> This is a UDP Pinger written in Python which simulates a 40% packet drop rate. The client sends pings to the server, which echoes the message back. The client then calculates the Round Trip Time (RTT) based on the response.
 
  **Please look at the screenshots to know what the UDP Pinger output looks like.**
 
