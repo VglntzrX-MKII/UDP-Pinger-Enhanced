@@ -8,7 +8,7 @@
 the client can ping the server, the server echos the message as a response and the client
 can calculate Round Trip Time on response.
 
-==Please look at the screenshots to know what the UDP Pinger output looks like.==
+ **Please look at the screenshots to know what the UDP Pinger output looks like.**
 
 # ✨ Launch Parameters:
 
